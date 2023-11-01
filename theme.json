@@ -1,0 +1,192 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "appearanceTools": true,
+        "color": {
+            "defaultPalette": false,
+            "palette": [
+                { 
+                    "slug": "rh-green", 
+                    "color": "rgb(228, 231, 225)", 
+                    "name": "Rose Hill Green" 
+                },
+                {
+                    "slug": "rh-darker-green",
+                    "color": "rgb(216, 219, 213)",
+                    "name": "Rose Hill Darker Green"
+                },
+                {
+                    "slug": "rh-yellow",
+                    "color": "rgb(232, 220, 173)",
+                    "name": "Rose Hill Yellow"
+                },
+                {
+                    "slug": "rh-blue",
+                    "color": "rgb(188, 215, 216)",
+                    "name": "Rose Hill Blue"
+                },
+                {
+                    "slug": "rh-beige",
+                    "color": "rgb(230, 231, 226)",
+                    "name": "Rose Hill Beige"
+                },
+                {
+                    "slug": "rh-black",
+                    "color": "rgb(27, 30, 29)",
+                    "name": "Rose Hill Black"
+                },
+                {
+                    "slug": "rh-white",
+                    "color": "rgb(255, 255, 255)",
+                    "name": "Rose Hill White"
+                }
+            ],
+            "background": true,
+            "text": true,
+            "link": false,
+            "custom": true,
+            "defaultDuotone": false,
+            "defaultGradients": false
+        },
+        "blocks": {
+            "core/site-title": {
+                "color": {
+                    "defaultPalette": false,
+                    "link": true
+                },
+                "typography": {
+                    "fontFamilies": [
+                        {
+                            "fontFamily": "Barlow, sans-serif",
+                            "slug": "rh-barlow",
+                            "name": "RH Barlow"
+                        }
+                    ]
+                }
+            },
+            "core/preformatted": {
+                "typography": {
+                    "fontSizes": [],
+                    "customFontSize": false
+                }
+            }
+        },
+        "border": {
+            "color": true,
+            "radius": true,
+            "style": true,
+            "width": true
+        },
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFamily": "Anonymous Pro, sans-serif",
+                    "slug": "rh-anonymous-pro",
+                    "name": "RH Anonymous Pro"
+                }
+            ],
+            "fontSizes": [
+                {
+                    "slug": "small",
+                    "size": "0.75rem",
+                    "name": "Small"
+                },
+                {
+                    "slug": "medium",
+                    "size": "1.25rem",
+                    "name": "Medium"
+                },
+                {
+                    "slug": "large",
+                    "size": "2.25rem",
+                    "name": "Large"
+                },
+                {
+                    "slug": "x-large",
+                    "size": "325rem",
+                    "name": "Extra Large"
+                },
+                {
+                    "slug": "gigantic",
+                    "size": "3.75rem",
+                    "name": "Gigantic"
+                }
+            ],
+            "fontWeight": true,
+            "fontStyle": true,
+            "textTransform": true,
+            "textDecoration": true
+        },
+        "layout": {
+            "contentSize": "800px",
+            "wideSize": "1000px"
+        },
+        "spacing": {
+            "margin": true,
+            "padding": true,
+            "units": [
+                "px", "rem", "vh", "vw", "%"
+            ],
+            "blockGap": true
+        }
+    },
+    "styles": {
+        "color": {
+            "text": "var(--wp--preset--color--rh-black)",
+            "background": "var(--wp--preset--color--rh-green)"
+        },
+        "elements": {
+            "link": {
+                "color": {
+                    "text": "var(--wp--preset--color--rh-black)"
+                }
+            }
+        },
+        "blocks": {
+            "core/button": {
+                "color": {
+                    "text": "var(--wp--preset--color--rh-white)",
+                    "background": "var(--wp--preset--color--rh-black)"
+                }
+            },
+            "core/pullquote": {
+                "border": {
+                    "width": "2px",
+                    "radius": "10px",
+                    "style": "solid",
+                    "color": "var(--wp--preset--color--rh-darker-green)"
+                }
+            },
+            "core/site-title": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font family--rh-barlow)"
+                }
+            }
+        },
+        "typography": {
+            "fontFamily": "var(--wp--preset--font family--rh-anonymous-pro)",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+            "lineHeight": "inherit",
+            "textDecoration": "none",
+            "textTransform": "none"
+        },
+        "spacing": {
+            "margin": {
+                "top": "0px",
+                "bottom": "0px",
+                "left": "0px",
+                "right": "0px"
+            },
+            "padding": {
+                "top": "0px",
+                "bottom": "0px",
+                "left": "0px",
+                "right": "0px"
+            },
+            "blockGap": "4rem"
+        }
+    }
+}
