@@ -44,7 +44,7 @@
             ],
             "background": true,
             "text": true,
-            "link": false,
+            "link": true,
             "custom": true,
             "defaultDuotone": false,
             "defaultGradients": false
@@ -58,7 +58,7 @@
                 "typography": {
                     "fontFamilies": [
                         {
-                            "fontFamily": "Barlow, sans-serif",
+                            "fontFamily": "Barlow Semi Condensed, sans-serif",
                             "slug": "rh-barlow",
                             "name": "RH Barlow"
                         }
@@ -81,7 +81,7 @@
         "typography": {
             "fontFamilies": [
                 {
-                    "fontFamily": "Anonymous Pro, sans-serif",
+                    "fontFamily": "Anonymous Pro, monospace",
                     "slug": "rh-anonymous-pro",
                     "name": "RH Anonymous Pro"
                 }
@@ -116,7 +116,8 @@
             "fontWeight": true,
             "fontStyle": true,
             "textTransform": true,
-            "textDecoration": true
+            "textDecoration": true,
+            "lineHeight": true
         },
         "layout": {
             "contentSize": "800px",
@@ -160,12 +161,18 @@
             },
             "core/site-title": {
                 "typography": {
-                    "fontFamily": "var(--wp--preset--font family--rh-barlow)"
+                    "fontFamily": "var(--wp--preset--font-family--rh-barlow)",
+                    "textTransform": "uppercase"
+                }
+            },
+            "core/post-content": {
+                "spacing": {
+                    "blockGap": "2rem"
                 }
             }
         },
         "typography": {
-            "fontFamily": "var(--wp--preset--font family--rh-anonymous-pro)",
+            "fontFamily": "var(--wp--preset--font-family--rh-anonymous-pro)",
             "fontSize": "16px",
             "fontStyle": "normal",
             "fontWeight": "normal",
@@ -188,5 +195,14 @@
             },
             "blockGap": "4rem"
         }
-    }
+    },
+    "customTemplates": [
+        {
+            "name": "events",
+            "title": "Events",
+            "postTypes": [
+                "page"
+            ]
+        }
+    ]
 }
